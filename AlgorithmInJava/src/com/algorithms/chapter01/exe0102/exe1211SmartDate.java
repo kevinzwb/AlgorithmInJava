@@ -1,14 +1,9 @@
-package com.algorithms.exe0102;
+package com.algorithms.chapter01.exe0102;
 
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
 
-import java.text.ParseException;
 import java.util.Arrays;
-import java.util.Set;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class exe1211SmartDate {

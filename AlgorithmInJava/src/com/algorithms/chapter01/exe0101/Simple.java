@@ -1,4 +1,4 @@
-package com.algorithms.exe0101;
+package com.algorithms.chapter01.exe0101;
 
 import java.math.BigInteger;
 import java.util.*;

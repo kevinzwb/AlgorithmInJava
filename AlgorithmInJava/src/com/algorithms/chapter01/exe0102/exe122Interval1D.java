@@ -1,11 +1,7 @@
-package com.algorithms.exe0102;
+package com.algorithms.chapter01.exe0102;
 
 import edu.princeton.cs.algs4.Interval1D;
-import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.StdOut;
-
-import java.awt.*;
-import java.util.Random;
 
 public class exe122Interval1D {
     public static void main(String[] args) {

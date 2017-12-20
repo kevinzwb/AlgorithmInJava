@@ -1,4 +1,4 @@
-package com.algorithms.exe0101;
+package com.algorithms.chapter01.exe0101;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;

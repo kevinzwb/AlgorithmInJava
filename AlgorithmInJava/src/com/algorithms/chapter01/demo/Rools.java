@@ -1,9 +1,8 @@
-package com.algorithms.chapter01;
+package com.algorithms.chapter01.demo;
 
 import edu.princeton.cs.algs4.Counter;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
-import javafx.geometry.Side;
 
 public class Rools {
 
