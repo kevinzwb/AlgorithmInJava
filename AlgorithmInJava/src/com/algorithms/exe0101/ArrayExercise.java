@@ -1,3 +1,4 @@
+/*
 package com.algorithms.exe0101;
 
 public class ArrayExercise {
@@ -5,3 +6,4 @@ public class ArrayExercise {
 
     }
 }
+*/
