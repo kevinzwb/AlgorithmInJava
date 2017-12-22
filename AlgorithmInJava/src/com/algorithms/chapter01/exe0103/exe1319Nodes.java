@@ -19,11 +19,6 @@ class NodeList<Item>{
     private Node last ;
     private int N;
 
-    private class Node<Item>
-    {
-        Item item;
-        Node next;
-    }
 
 //    public NodeList(int n) {
 //        int startIndex = 65;
@@ -83,6 +78,53 @@ class NodeList<Item>{
         return false;
     }
 
+    public void removeAfter(Node<Item> node){
+        if (node.item == null) ;
+        else {
+            Node next = first;
+            for (int i = 0; next.next != null;i++) {
+                if (next.item.equals(node.item)){
+                    next.next = node;
+                    N = i + 1;
+                }
+                next = next.next;
+            }
+        }
+    }
+
+    public void insetAfter(Node<Item> indexNode,Node<Item> insertNode){
+        if (indexNode.item == null ||insertNode.item == null) ;
+        else  {
+            Node next = first;
+            while (next.next != null){
+                if (next.item.equals(indexNode.item)){
+                    insertNode.next = next.next;
+                    next.next = insertNode;
+                    N++;
+                    break;
+                }
+                next = next.next;
+            }
+        }
+    }
+
+    public void remove(String key){
+        Node nextNode = first;
+        Node previousNode = nextNode;
+        while (nextNode.next != null) {
+            if (nextNode.item.equals(key)) {
+                previousNode.next = nextNode.next;
+                N--;
+            }
+            previousNode = nextNode;
+            nextNode = nextNode.next;
+
+        }
+    }
+
+
+
+
 
     private static int stringToInt(String letter){
         return (int)letter.charAt(0);
@@ -93,3 +135,10 @@ class NodeList<Item>{
             return String.valueOf(letter);
     }
 }
+
+class Node<Item>
+{
+    Item item;
+    Node next;
+}
+
