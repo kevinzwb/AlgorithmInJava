@@ -46,7 +46,7 @@ public class exe134Parentheses {
     }
 }
 
-class StackWithNodes<Item> implements Iterable{
+class StackWithNodes<Item> implements Iterable<Item>{
     private Node first;
     private int N;
 

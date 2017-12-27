@@ -63,6 +63,7 @@ public class StackWithNodes<Item> {
             else if (!s.isEmpty()) StdOut.print(s.pop() + "");
         }
 
+        s.pop();
         StdOut.println("(" + s.size() + " left on stack)");
     }
 }

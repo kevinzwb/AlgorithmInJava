@@ -34,7 +34,7 @@ class Queue<Item> implements Iterable<Item> {
 
     public boolean isEmpty(){return first == null;}
 
-    public int size() {return N;};
+    public int size() {return N;}
 
     public void enqueue(Item item){
         Node oldlast = last;
@@ -90,6 +90,8 @@ class Queue<Item> implements Iterable<Item> {
             else if (!q.isEmpty()) StdOut.print(q.dequeue() + " ");
         }
 
+        q.dequeue();
+        q.dequeue();
         StdOut.println("(" + q.size() + " left on stack)");
     }
 }

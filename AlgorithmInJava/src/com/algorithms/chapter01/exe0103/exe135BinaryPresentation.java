@@ -26,7 +26,7 @@ public class exe135BinaryPresentation {
 
 //        foreach does not work here
         StdOut.println();
-        for (Object d:stack) StdOut.print((int)d);
+        for (Integer d:stack) StdOut.print((int)d);
     }
 
 }
